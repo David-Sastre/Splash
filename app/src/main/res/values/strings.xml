@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Splash</string>
+    <string name="menu_item_help">Help</string>
+    <string name="menu">MAIN MENU </string>
+    <string name="menu_item_settings">Settings Screen</string>
+    <string name="game">Game Screen</string>
+    <string name="menu_item_play">Play Game</string>
+    <string name="menu_item_scores">View Scores</string>
+    <string name="app_logo_top">ARE YOU READY?</string>
+    <string name="app_logo_bottom"> GO!</string>
+    <string name="app_version_info">Version 1.0.0\nCopyright © 2021 David Sastre\nAll
+    Rights Reserved.</string>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondoSplash"
+    tools:context=".Splash">
+
+    <TextView
+        android:id="@+id/TextViewTopTitle"
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:gravity="top|center"
+        android:text="@string/app_logo_top"
+        android:textColor="@color/logo_color"
+        android:textSize="@dimen/logo_size" />
+
+    <ImageView
+        android:id="@+id/ImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="501dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:src="@drawable/play" />
+
+
+    <TextView
+        android:id="@+id/TextViewBottomTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/app_logo_bottom"
+        android:textColor="@color/logo_color"
+        android:textSize="@dimen/logo_size" />
+
+    <TextView
+        android:id="@+id/TextViewBottomVersion"
+        android:text="@string/app_version_info"
+        android:textSize="@dimen/version_size"
+        android:textColor="@color/version_color"
+        android:background="@color/version_bkgrd"
+        android:layout_height="match_parent"
+        android:lineSpacingExtra="@dimen/version_spacing"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:gravity="center"/>
+</LinearLayout>
